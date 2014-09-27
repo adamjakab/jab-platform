@@ -52,7 +52,6 @@ class AppKernel extends Kernel {
 	        new Jab\App\AccountBundle\JabAppAccountBundle(),
 
 			/* NEW BUNDLES */
-            //new Adi\TestBundle\AdiTestBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
