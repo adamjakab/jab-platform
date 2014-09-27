@@ -12,3 +12,4 @@
 /bin/
 /composer.phar
 .directory
+/composer.lock
