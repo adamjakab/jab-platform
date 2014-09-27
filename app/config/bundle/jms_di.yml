@@ -1,6 +1,6 @@
 jms_di_extra:
     doctrine_integration: false
     locations:
-        all_bundles: false
-        bundles: [JabFrameworkBundle]
-        directories: ["%kernel.root_dir%/../src"]
+        all_bundles: true
+        bundles: []
+        directories: ["%kernel.root_dir%/../vendor/jab"]

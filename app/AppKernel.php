@@ -42,7 +42,6 @@ class AppKernel extends Kernel {
 	        /*new JMS\SerializerBundle\JMSSerializerBundle(),*/
 	        /*new FOS\RestBundle\FOSRestBundle(),*/
 
-
 	        /* JAB BASE BUNDLES */
 	        new Jab\Platform\PlatformBundle\JabPlatformBundle(),
 	        new Jab\Tool\TemplateBundle\JabToolTemplateBundle(),

@@ -1,7 +1,4 @@
-adi_test:
-    resource: "@AdiTestBundle/Controller/"
-    type:     annotation
-    prefix:   /adi
+
 
 #---^^^---------- CUSTOM USER BUNDLES -------------^^^---#
 #---NOTE: All bundles in this file are prefixed (/app)---#
