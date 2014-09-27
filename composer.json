@@ -17,13 +17,13 @@
         "symfony/monolog-bundle": "2.6.1",
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
-        "incenteev/composer-parameter-handler": "2.1.0"
+        "incenteev/composer-parameter-handler": "2.1.0",
+        "jab/jab-core": "1.1.*@dev"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require-dev": {
-        "sensio/generator-bundle": "~2.3",
-        "jab/jab-core": "0.1.*@dev"
+        "sensio/generator-bundle": "~2.3"
     },
     "scripts": {
         "post-root-package-install": [
@@ -57,7 +57,7 @@
             "file": "app/config/parameters.yml"
         },
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "2.0-dev"
         }
     }
 }
