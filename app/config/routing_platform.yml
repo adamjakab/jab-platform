@@ -35,6 +35,11 @@ jab_app_account:
     type:     annotation
     prefix:   /account
 
+jab_tool_test:
+    resource: "@JabToolTestBundle/Controller/"
+    type:     annotation
+    prefix:   /test
+
 
 #----------Dynamic Routes Loader(Jab\Platform\PlatformBundle\Router)
 jab_dyn_routes:
