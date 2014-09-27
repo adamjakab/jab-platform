@@ -50,11 +50,10 @@ class AppKernel extends Kernel {
 	        new Jab\Config\EntityBundle\JabConfigEntityBundle(),
 	        new Jab\App\UserBundle\JabAppUserBundle(),
 	        new Jab\App\DashboardBundle\JabAppDashboardBundle(),
-
+	        new Jab\App\AccountBundle\JabAppAccountBundle(),
 
 			/* NEW BUNDLES */
-            new Adi\TestBundle\AdiTestBundle(),
-            new Jab\App\AccountBundle\JabAppAccountBundle(),
+            //new Adi\TestBundle\AdiTestBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
