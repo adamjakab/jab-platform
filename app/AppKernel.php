@@ -45,6 +45,7 @@ class AppKernel extends Kernel {
 	        /* JAB BASE BUNDLES */
 	        new Jab\Platform\PlatformBundle\JabPlatformBundle(),
 	        new Jab\Tool\TemplateBundle\JabToolTemplateBundle(),
+	        new Jab\Tool\TestBundle\JabToolTestBundle(),
 	        new Jab\Config\ApplicationBundle\JabConfigApplicationBundle(),
 	        new Jab\Config\EntityBundle\JabConfigEntityBundle(),
 	        new Jab\App\UserBundle\JabAppUserBundle(),
