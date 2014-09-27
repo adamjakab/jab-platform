@@ -1,0 +1,5 @@
+ornicar_gravatar:
+    size: 80
+    rating: g
+    default: retro #one of 404, mm, identicon, monsterid, wavatar, retro, blank or bublicly available urlencoded uri
+

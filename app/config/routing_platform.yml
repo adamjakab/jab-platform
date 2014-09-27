@@ -1,0 +1,47 @@
+#----------------------- Platform Routes ------------------------------#
+# The dashboard at "/" default route
+jab_app_dashboard:
+    resource: "@JabAppDashboardBundle/Controller/DefaultController.php"
+    type:     annotation
+    prefix:   /
+
+jab_platform:
+    resource: "@JabPlatformBundle/Controller/DefaultController.php"
+    type:     annotation
+    prefix:   /platform
+
+jab_app_user_profile:
+    resource: "@JabAppUserBundle/Controller"
+    type:     annotation
+    prefix:   /profile
+
+jab_app_user_security:
+    resource: "@JabAppUserBundle/Controller/SecurityController.php"
+    type:     annotation
+    prefix:   /security
+
+jab_config_application:
+    resource: "@JabConfigApplicationBundle/Controller/"
+    type:     annotation
+    prefix:   /config/application
+
+jab_config_entity:
+    resource: "@JabConfigEntityBundle/Controller/"
+    type:     annotation
+    prefix:   /config/entity
+
+jab_app_account:
+    resource: "@JabAppAccountBundle/Controller/"
+    type:     annotation
+    prefix:   /account
+
+
+#----------Dynamic Routes Loader(Jab\Platform\PlatformBundle\Router)
+jab_dyn_routes:
+    resource: .
+    type: jabdyn
+
+#--------------------Additional Routes(app/)------------------------#
+_additional_routes:
+    resource: routing.yml
+    prefix:   /app

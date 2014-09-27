@@ -1,0 +1,6 @@
+jab_config_entity:
+    entity_config:
+        show_unmanaged: true
+        my_name: "Adi"
+
+
